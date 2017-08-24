@@ -49,8 +49,8 @@ def get_API(endpoint, end_params, token):
 def get_token():
     token_URL = '%s/oauth/access_token' % (api_URL)
     file_fb_auth = open('facebook_auth.txt', 'r')
-    client_id = file_fb_auth.readline()
-    client_secret = file_fb_auth.readline()
+    client_id = file_fb_auth.readline().replace('\n', '')
+    client_secret = file_fb_auth.readline().replace('\n', '')
     file_fb_auth.close()
     grant_type = 'client_credentials'
     

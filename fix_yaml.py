@@ -13,7 +13,7 @@ except yaml.YAMLError as exc:
 
 file_stream.close()
 
-file_csv.write('%s;%s;%s;%s;%s' % ('Tipo', 'Desc', 'FB ID', 'YAML Name', 'Real Name'))
+file_csv.write('%s;%s;%s;%s;%s\n' % ('Tipo', 'Desc', 'FB ID', 'YAML Name', 'Real Name'))
 
 try:
     data_new = {}
