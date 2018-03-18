@@ -1,3 +1,13 @@
 pathlib
 requests
 PyYAML
+pyspark
+rdflib
+numpy
+nltk
+treetaggerwrapper
+pandas
+sklearn
+scipy
+rake_nltk
+textblob
